@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 # This will help ensure the proper Jekyll version is running.
-gem "jekyll", github: "jekyll/jekyll"
+gem "github-pages", "~> 232", group: :jekyll_plugins
+#gem "jekyll", github: "jekyll/jekyll"
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'

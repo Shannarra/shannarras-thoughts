@@ -12,9 +12,9 @@ Pull up a chair, fire up your terminal, and letâ€™s explore the wired universe â
 </description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 05 Sep 2025 17:43:34 +0300</pubDate>
-        <lastBuildDate>Fri, 05 Sep 2025 17:43:34 +0300</lastBuildDate>
-        <generator>Jekyll v4.4.1</generator>
+        <pubDate>Fri, 05 Sep 2025 17:51:33 +0300</pubDate>
+        <lastBuildDate>Fri, 05 Sep 2025 17:51:33 +0300</lastBuildDate>
+        <generator>Jekyll v3.10.0</generator>
         
             <item>
                 <title>The Ride In The Woods</title>
