@@ -68,7 +68,7 @@
 }
 
 .nav-menu {
-    font: bold 12px/1.5 $alt-font;
+    font: bold 18px/1.5 $alt-font;
     padding-right: 60px;
     text-transform: uppercase;
     ul {
@@ -99,7 +99,7 @@
 .search-toggle {
     color: #aeb0b1;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 2;
     padding: 10px 0;
     position: absolute;
@@ -295,7 +295,7 @@ ul.search-results {
 .site-title {
     font: bold 34px/1.2 $heading-font;
     letter-spacing: -1px;
-    margin: 0;
+    margin: 25px 0;
     a {
         background-color: $accent-color;
         color: #fff;
@@ -311,7 +311,8 @@ ul.search-results {
 .site-description {
     color: #30373d;
     font: 18px/.5 $alt-font;
-    margin: 20px 0 0;
+    margin: 20px 0;
+		line-height: 1;
 }
 
 /**
@@ -322,6 +323,11 @@ ul.search-results {
 .post {
     background: #fafafa;
     margin-bottom: 60px;
+		border-radius: 25px;
+}
+
+.post-thumbnail > img {
+		border-radius: 25px;
 }
 
 .entry-box {
@@ -662,7 +668,7 @@ ul.search-results {
 
 .widget-recent-posts .post-thumb {
     background-size: cover;
-    border-radius: 2px;
+    border-radius: 25px;
     float: right;
     height: 48px;
     width: 60px;
